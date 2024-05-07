@@ -1,0 +1,149 @@
+h1{
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+    color: white;
+
+}
+
+body{
+    margin: 0;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    color: white;
+}
+/*------------ Header /*/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+ul li{
+display: inline-block;
+padding: 0px 20px; 
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+/*end header----------*/
+.card{
+    background: rgb(0, 0, 137);
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+}
+.card_tittle{
+    font-size: 22px;
+    margin: 0;
+
+}
+.card_subtitle{
+    font-size: 13;
+    font-weight: 100;
+    letter-spacing: 2px;
+
+}
+/* --------------footer*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: #111;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+
+.socialIcons a:hover{
+    background-color: #fff;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
